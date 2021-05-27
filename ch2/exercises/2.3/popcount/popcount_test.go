@@ -6,7 +6,7 @@ package popcount_test
 import (
 	"testing"
 
-    "github.com/zerdliu/gopl.io/ch2/exercises/2.2/popcount"
+    "github.com/zerdliu/gopl.io/ch2/exercises/2.3/popcount"
 )
 
 // -- Alternative implementations --
