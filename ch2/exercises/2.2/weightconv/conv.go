@@ -9,11 +9,11 @@ const (
     OnePound2Kilograms Kilogram = 0.45359237
 )
 
-func (p Pound) toKilogram() Kilogram {
+func (p Pound) ToKilogram() Kilogram {
     return Kilogram(p) * OnePound2Kilograms
 }
 
-func (k Kilogram) toPound() Pound {
+func (k Kilogram) ToPound() Pound {
     return Pound(k / OnePound2Kilograms)
 }
 
